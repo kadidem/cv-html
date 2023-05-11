@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    background: rgb(134, 130, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0,0,0,1);
+}
+.container .left_slide
+{
+    position: relative;
+    background: #358D93;
+    padding: 40px;
+}
+.container .right_slide
+{
+    position: relative;
+    background: #fff;
+    padding: 35px;
+}
+.profiltext
+{
+    position: relative;
+    display: flex;
+   flex-direction: column; 
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: solid 2px black;
+}
+.profiltext h2
+{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-align: center;
+}
+.profiltext h2 span
+{
+    font-size: 0.8em;
+    font-weight: 350;
+}
+.exp
+{
+    position: relative;
+    padding-left: 21px;
+    margin-top: 16px; 
+    border-left: solid 2px black;
+}
+.rond, .rond2,.rond3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3B4B5B;
+} 
+.rond{
+    top: -6px;
+    left: -22px;
+}
+.rond2{
+    bottom: -41px;
+    left: -21px;
+}
+.rond3{
+    bottom: 45px;
+    left: -25px;
+}
+.methodes{
+    border-left: solid 2px black;
+    margin-top: 18px;
+    padding-left: 17px;
+    position: relative;
+}
+.exp h5
+{
+    margin-top: 13px; 
+}
+.profile-img
+{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-left: 60px;
+    border: 1px solid #358D93;
+    box-shadow: 6px 7px 9px 5px #358D93;
+}
+.profile-img img
+{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+.apropos h3
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.4em; 
+}
+.apropos h5
+{
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactinfo
+{
+    padding-top: 40px;
+    
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.h3-title
+{
+    text-transform: uppercase;
+    font-family: serif;
+    border-bottom: solid 2px black;
+    margin-top: 10px;
+}
+.h5-title
+{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.para-ul{
+    font-size: 12px;
+    margin-left: 18px;
+}
+.competances{
+     border-left: solid 2px black;
+    padding-left: 21px;
+} 
+.contactinfo li
+{
+    position: relative;
+    list-style: none;
+}
+.contactinfo  li .icon
+{
+    display:inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(219, 223, 231);
+}
+.contactinfo ul li .text
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.sous-title
+{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.competances0
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.progress-bar{
+    width: 80%;
+    height: .4rem;
+    background-color: #2f81ed5b;
+    position: relative;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #358D93;
+}
+.php-progress{
+    width: 70%;
+}
+.ap-progress{
+    width: 90%;
+}
+.ms-progress{
+    width: 85%;
+}
+.ht-progress{
+    width: 40%;
+}
+.progress-bar2{
+    width: 80%;
+    height: .4rem;
+    background-color: #2f81ed5b;
+    position: relative;
+}
+.bl-progress{
+    width: 70%;
+}
+.bt-progress{
+    width: 70%;
+}
+.jq-progress{
+    width: 80%;
+}
+.js-progress{
+    width: 40%;
+}
+.methodes0
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.perl-progress{
+    width: 40%;
+}
+.ma-progress{
+    width: 40%;
+}
+.md-progress{
+    width: 40%;
+}
+.po-progress{
+    width: 40%;
+}
